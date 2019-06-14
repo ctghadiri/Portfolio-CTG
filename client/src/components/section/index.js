@@ -1,7 +1,7 @@
 import React from 'react';
 import { checkPropTypes } from 'prop-types';
 
-const Container = (props) => {
+const Section = (props) => {
     return (
         <div>
             <h1>{props.name}</h1>
@@ -9,4 +9,4 @@ const Container = (props) => {
     )
 }
 
-export default Container;
+export default Section;
