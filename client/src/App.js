@@ -5,7 +5,7 @@ import Section from './components/section';
 
 function App() {
   return (
-    <div>
+    <div class="container">
       <Nav>
 
       </Nav>
