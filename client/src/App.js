@@ -9,22 +9,22 @@ function App() {
       <Nav>
 
       </Nav>
-      <Section name="About Me">
+      <Section name="About Me" id="about-me">
 
       </Section>
-      <Section name="Skills">
+      <Section name="Skills" id="skills">
 
       </Section>
-      <Section name="Education">
+      <Section name="Education" id="education">
 
       </Section>
-      <Section name="Experience">
+      <Section name="Experience" id="experience">
 
       </Section>
-      <Section name="Projects">
+      <Section name="Projects" id="projects">
 
       </Section>
-      <Section name="Contact">
+      <Section name="Contact" id="contact">
 
       </Section>
     </div>
