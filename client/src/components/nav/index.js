@@ -3,7 +3,7 @@ import React from 'react';
 const Nav = () => {
     return (
         <div class="row">
-        <div class="col s12 m9 l10">
+        {/* <div class="col s12 m9 l10">
           <div id="about-me" class="section scrollspy">
             <p>About Me </p>
           </div>
@@ -27,12 +27,15 @@ const Nav = () => {
           <div id="contact" class="section scrollspy">
             <a href="/contact"><p>Contact </p></a>
           </div>
-        </div>
+        </div> */}
         <div class="col hide-on-small-only m3 l2">
           <ul class="section table-of-contents">
-            <li><a href="#introduction">Introduction</a></li>
-            <li><a href="#structure">Structure</a></li>
-            <li><a href="#initialization">Intialization</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
