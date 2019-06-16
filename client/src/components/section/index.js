@@ -3,7 +3,7 @@ import { checkPropTypes } from 'prop-types';
 
 const Section = (props) => {
     return (
-        <div class="row">
+        <div class="row" id={props.id}>
             <h1>{props.name}</h1>
         </div>
     )
