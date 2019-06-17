@@ -28,6 +28,9 @@ const Nav = () => {
             <a href="/contact"><p>Contact </p></a>
           </div>
         </div> */}
+        <a href="#" class="sidebar-trigger" data-target="mobile-links">
+          <i class="material-icons">menu</i>
+        </a>
         <div class="col hide-on-small-only m3 l2">
           <ul class="section table-of-contents">
             <li><a href="#about-me">About Me</a></li>
@@ -38,6 +41,14 @@ const Nav = () => {
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
+        <ul class="sidenav" id="mobile-links">
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </div>
     )
 }
