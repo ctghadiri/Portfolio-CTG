@@ -28,10 +28,10 @@ const Nav = () => {
             <a href="/contact"><p>Contact </p></a>
           </div>
         </div> */}
-        <a href="#" class="sidenav-trigger" data-target="mobile-links">
+        <a href="#" class="sidenav-trigger hide-on-large-only" data-target="mobile-links">
           <i class="material-icons">menu</i>
         </a>
-        <div class="col hide-on-small-only m3 l2">
+        <div class="col hide-on-med-and-down m3 l2">
           <ul class="section table-of-contents">
             <li><a href="#about-me">About Me</a></li>
             <li><a href="#skills">Skills</a></li>
