@@ -28,7 +28,7 @@ const Nav = () => {
             <a href="/contact"><p>Contact </p></a>
           </div>
         </div> */}
-        <a href="#" class="sidebar-trigger" data-target="mobile-links">
+        <a href="#" class="sidenav-trigger" data-target="mobile-links">
           <i class="material-icons">menu</i>
         </a>
         <div class="col hide-on-small-only m3 l2">
