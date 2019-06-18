@@ -16,6 +16,7 @@ function App() {
         <Section name="About Me" id="about-me">
 
         </Section>
+        {/* Photo by Fezbot2000 on Unsplash */}
         <Parallax image="/assets/images/beach.jpg"></Parallax>
         <Section name="Skills" id="skills">
 
