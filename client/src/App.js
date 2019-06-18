@@ -16,7 +16,7 @@ function App() {
         <Section name="About Me" id="about-me">
 
         </Section>
-        <Parallax image='./assets/images/beach.jpg'></Parallax>
+        <Parallax image="/assets/images/beach.jpg"></Parallax>
         <Section name="Skills" id="skills">
 
         </Section>
