@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Parallax = () => {
+const Parallax = (props) => {
     return (
-        <div>
-
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src={props.image} alt="" class="responsive-img"></img>
+            </div>
         </div>
     )
 }
