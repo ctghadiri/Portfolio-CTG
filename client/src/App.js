@@ -7,16 +7,16 @@ import Parallax from './components/parallax';
 function App() {
   return (
     <div>
-      <div class="header">
+      <div className="header">
 
         <Nav />
       </div>
-      <div class="container">
+      <div className="container">
 
         <Section name="About Me" id="about-me">
 
         </Section>
-        <Parallax image="./assets/images/beach.jpg"></Parallax>
+        <Parallax image='./assets/images/beach.jpg'></Parallax>
         <Section name="Skills" id="skills">
 
         </Section>

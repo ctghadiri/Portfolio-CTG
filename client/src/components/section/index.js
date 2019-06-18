@@ -1,5 +1,4 @@
 import React from 'react';
-import { checkPropTypes } from 'prop-types';
 
 const Section = (props) => {
     return (
