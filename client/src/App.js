@@ -3,6 +3,8 @@ import './App.css';
 import Nav from './components/nav';
 import Section from './components/section';
 import Parallax from './components/parallax';
+import ProjImg from './components/projects/image';
+import ProjDetails from './components/projects/details';
 
 function App() {
   return (
@@ -26,7 +28,18 @@ function App() {
 
       </Section>
       <Section name="Projects" id="projects">
-
+        <div className="row section">
+          <ProjImg></ProjImg>
+          <ProjDetails></ProjDetails>
+        </div>
+        <div className="row section">
+          <ProjDetails></ProjDetails>
+          <ProjImg></ProjImg>
+        </div>
+        <div className="row section">
+          <ProjImg></ProjImg>
+          <ProjDetails></ProjDetails>
+        </div>
       </Section>
       <Section name="Contact" id="contact">
 
