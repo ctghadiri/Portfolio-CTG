@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Nav from './components/nav';
 import Section from './components/section';
+import Parallax from './components/parallax';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Section name="About Me" id="about-me">
 
         </Section>
+        <Parallax image="./assets/images/beach.jpg"></Parallax>
         <Section name="Skills" id="skills">
 
         </Section>
