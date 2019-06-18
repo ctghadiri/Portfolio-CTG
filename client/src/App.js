@@ -6,9 +6,11 @@ import Section from './components/section';
 function App() {
   return (
     <div class="container">
-      <Nav>
+      <div class="header">
 
-      </Nav>
+      <Nav />
+      </div>
+
       <Section name="About Me" id="about-me">
 
       </Section>
