@@ -11,29 +11,26 @@ function App() {
 
         <Nav />
       </div>
-      <div className="container">
+      <Section name="About Me" id="about-me">
 
-        <Section name="About Me" id="about-me">
+      </Section>
+      {/* Photo by Fezbot2000 on Unsplash */}
+      <Parallax image="/assets/images/beach.jpg"></Parallax>
+      <Section name="Skills" id="skills">
 
-        </Section>
-        {/* Photo by Fezbot2000 on Unsplash */}
-        <Parallax image="/assets/images/beach.jpg"></Parallax>
-        <Section name="Skills" id="skills">
+      </Section>
+      <Section name="Education" id="education">
 
-        </Section>
-        <Section name="Education" id="education">
+      </Section>
+      <Section name="Experience" id="experience">
 
-        </Section>
-        <Section name="Experience" id="experience">
+      </Section>
+      <Section name="Projects" id="projects">
 
-        </Section>
-        <Section name="Projects" id="projects">
+      </Section>
+      <Section name="Contact" id="contact">
 
-        </Section>
-        <Section name="Contact" id="contact">
-
-        </Section>
-      </div>
+      </Section>
     </div>
   );
 }
