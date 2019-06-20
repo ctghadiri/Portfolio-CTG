@@ -30,15 +30,21 @@ function App() {
       <Section name="Projects" id="projects">
           <div className="row section">
               <ProjImage projImg="/assets/images/TruckTrackerLogo.png"></ProjImage>
-              <ProjDetails></ProjDetails>
+              <ProjDetails projTitle="Truck Tracker">
+              <p></p>
+              </ProjDetails>
           </div>
           <div className="row section">
-              <ProjDetails></ProjDetails>
+              <ProjDetails projTitle="Liri-Bot">
+              <p></p>
+              </ProjDetails>
               <ProjImage projImg="/assets/images/Liri-Bot.png"></ProjImage>
           </div>
           <div className="row section">
               <ProjImage></ProjImage>
-              <ProjDetails></ProjDetails>
+              <ProjDetails projTitle="">
+              <p></p>
+              </ProjDetails>
           </div>
       </Section>
       <Section name="Contact" id="contact">
