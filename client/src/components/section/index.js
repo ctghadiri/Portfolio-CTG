@@ -6,6 +6,7 @@ const Section = (props) => {
             {/* <div className="row scrollspy" id={props.id}> */}
                 <h1>{props.name}</h1>
             {/* </div> */}
+            {props.children}
         </div>
     )
 }
