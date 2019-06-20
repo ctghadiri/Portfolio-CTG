@@ -14,7 +14,7 @@ function App() {
         <Nav />
       </div>
       <Section name="About Me" id="about-me">
-
+        <p>banana</p>
       </Section>
       {/* Photo by Fezbot2000 on Unsplash */}
       <Parallax image="/assets/images/beach.jpg"></Parallax>
@@ -28,6 +28,11 @@ function App() {
 
       </Section>
       <Section name="Projects" id="projects">
+      <p>banana</p>
+      </Section>
+      <Section name="Contact" id="contact">
+
+      </Section>
         <div className="row section">
           <ProjImage projImg="/assets/images/TruckTrackerLogo.png"></ProjImage>
           <ProjDetails></ProjDetails>
@@ -40,10 +45,6 @@ function App() {
           <ProjImage></ProjImage>
           <ProjDetails></ProjDetails>
         </div>
-      </Section>
-      <Section name="Contact" id="contact">
-
-      </Section>
     </div>
   );
 }
