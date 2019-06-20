@@ -1,12 +1,12 @@
 import React from 'react';
 
-const ProjImg = (props) => {
+const ProjImage = (props) => {
     return (
         <div className="col s12 l4">
-            <img src={props.projImg} className="responsive-img">
+            <img src={props.projImg} alt="" className="responsive-img">
             </img>
         </div>
     )
 }
 
-export default ProjImg;
+export default ProjImage;

@@ -3,7 +3,7 @@ import './App.css';
 import Nav from './components/nav';
 import Section from './components/section';
 import Parallax from './components/parallax';
-import ProjImg from './components/projects/image';
+import ProjImage from './components/projects/image';
 import ProjDetails from './components/projects/details';
 
 function App() {
@@ -29,15 +29,15 @@ function App() {
       </Section>
       <Section name="Projects" id="projects">
         <div className="row section">
-          <ProjImg projImg="/assets/images/TruckTrackerLogo.png"></ProjImg>
+          <ProjImage projImg="/assets/images/TruckTrackerLogo.png"></ProjImage>
           <ProjDetails></ProjDetails>
         </div>
         <div className="row section">
           <ProjDetails></ProjDetails>
-          <ProjImg projImg="/assets/images/Liri-Bot.png"></ProjImg>
+          <ProjImage projImg="/assets/images/Liri-Bot.png"></ProjImage>
         </div>
         <div className="row section">
-          <ProjImg></ProjImg>
+          <ProjImage></ProjImage>
           <ProjDetails></ProjDetails>
         </div>
       </Section>
