@@ -29,12 +29,12 @@ function App() {
       </Section>
       <Section name="Projects" id="projects">
         <div className="row section">
-          <ProjImg></ProjImg>
+          <ProjImg projImg="/assets/images/TruckTrackerLogo.png"></ProjImg>
           <ProjDetails></ProjDetails>
         </div>
         <div className="row section">
           <ProjDetails></ProjDetails>
-          <ProjImg></ProjImg>
+          <ProjImg projImg="/assets/images/Liri-Bot.png"></ProjImg>
         </div>
         <div className="row section">
           <ProjImg></ProjImg>
