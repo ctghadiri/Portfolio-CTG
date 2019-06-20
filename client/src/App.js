@@ -3,7 +3,6 @@ import './App.css';
 import Nav from './components/nav';
 import Section from './components/section';
 import Parallax from './components/parallax';
-import Projects from './components/projects/main';
 import ProjImage from './components/projects/image';
 import ProjDetails from './components/projects/details';
 
