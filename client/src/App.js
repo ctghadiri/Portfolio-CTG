@@ -5,6 +5,7 @@ import Section from './components/section';
 import Parallax from './components/parallax';
 import ProjImage from './components/projects/image';
 import ProjDetails from './components/projects/details';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
       <Section name="Contact" id="contact">
 
       </Section>
+      <Footer></Footer>
     </div>
   );
 }
