@@ -20,13 +20,18 @@ function App() {
       {/* Photo by Fezbot2000 on Unsplash */}
       <Parallax image="/assets/images/beach.jpg"></Parallax>
       <Section name="Skills" id="skills">
-
+        <div className="row section"></div>
+        <div className="row section"></div>
       </Section>
       <Section name="Education" id="education">
-        <h6>University of Califonia, Berkeley Extension -- Full Stack Coding Bootcamp</h6>
-        <p>2019</p>
-        <h6>University of Califonia, Davis -- B.S. Economics</h6>
-        <p>2012</p>
+        <div className="row section">
+          <h6>University of Califonia, Berkeley Extension -- Full Stack Coding Bootcamp</h6>
+          <p>2019</p>
+        </div>
+        <div className="row section">
+          <h6>University of Califonia, Davis -- B.S. Economics</h6>
+          <p>2012</p>
+        </div>
       </Section>
       <Section name="Experience" id="experience">
 
