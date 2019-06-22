@@ -23,7 +23,10 @@ function App() {
 
       </Section>
       <Section name="Education" id="education">
-
+        <h6>University of Califonia, Berkeley Extension -- Full Stack Coding Bootcamp</h6>
+        <p>2019</p>
+        <h6>University of Califonia, Davis -- B.S. Economics</h6>
+        <p>2012</p>
       </Section>
       <Section name="Experience" id="experience">
 
