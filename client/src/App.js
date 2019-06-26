@@ -6,6 +6,7 @@ import Parallax from './components/parallax';
 import ProjImage from './components/projects/image';
 import ProjDetails from './components/projects/details';
 import Footer from './components/footer';
+import Contact from './components/contact/main';
 
 function App() {
   return (
@@ -57,7 +58,7 @@ function App() {
           </div>
       </Section>
       <Section name="Contact" id="contact">
-
+        <Contact></Contact>
       </Section>
       <Footer></Footer>
     </div>
