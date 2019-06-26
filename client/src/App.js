@@ -24,6 +24,7 @@ function App() {
         <div className="row section"></div>
         <div className="row section"></div>
       </Section>
+      <Parallax image="/assets/images/beach.jpg"></Parallax>
       <Section name="Education" id="education">
         <div className="row section">
           <h6>University of Califonia, Berkeley Extension — Full Stack Coding Bootcamp</h6>
@@ -34,6 +35,7 @@ function App() {
           <p>2012</p>
         </div>
       </Section>
+      <Parallax image="/assets/images/beach.jpg"></Parallax>
       <Section name="Experience" id="experience">
         <div className="row section">
           <h6>JPMorgan Chase, San Jose, CA — Relationship Banker</h6>
@@ -43,7 +45,7 @@ function App() {
             <li>Coach team members to develop sales opportunities and refer clients to designated business partners to meet sales goals.</li>
           </ul>
         </div>
-        <div className="row section">
+        <div className="row section right-align">
           <h6>Homesuite, Palo Alto, CA — Landlord and Partnership Account Manager</h6>
           <ul>
             <li>Responsible for seamlessly and quickly managing multi-channel interactions with current and prospective landlord partners.</li>
@@ -57,7 +59,7 @@ function App() {
             <li>Worked in a close-knit team brainstorming and implementing sales and marketing strategies</li>
           </ul>
         </div>
-        <div className="row section">
+        <div className="row section right-align">
          <h6>Maple Press, San Jose, CA — Account Manager</h6>
          <ul>
             <li>Managed key relationships with existing customers, prospects, and partners.</li>
@@ -65,16 +67,27 @@ function App() {
           </ul>
         </div>
       </Section>
+      <Parallax image="/assets/images/beach.jpg"></Parallax>
       <Section name="Projects" id="projects">
           <div className="row section">
               <ProjImage projImg="/assets/images/TruckTrackerLogo.png"></ProjImage>
               <ProjDetails projTitle="Truck Tracker">
-              <p></p>
+              <ul>
+                <li>Collaborated with a team on creating web app to display nearby food truck information.</li>
+                <li>Built restful API to manage and display food trucks.</li>
+                <li>Designed the database schema and  validations.</li>
+                <li>Used Axios calls to pull information to display on React based frontend.</li>
+                <li>Designed user experience including CSS, Bootstrap, and React.</li>
+              </ul>
               </ProjDetails>
           </div>
           <div className="row section">
               <ProjDetails projTitle="Liri-Bot">
-              <p></p>
+              <ul>
+                <li>Built CLI app that is a language interpretation and recognition interface that will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.</li>
+                <li>Used Axios calls to pull information from respective API’s.</li>
+                <li>Applied moment.js to provide time conversions for API pulls and responses.</li>
+              </ul>
               </ProjDetails>
               <ProjImage projImg="/assets/images/Liri-Bot.png"></ProjImage>
           </div>
@@ -85,6 +98,7 @@ function App() {
               </ProjDetails>
           </div>
       </Section>
+      <Parallax image="/assets/images/beach.jpg"></Parallax>
       <Section name="Contact" id="contact">
         <Contact></Contact>
       </Section>
