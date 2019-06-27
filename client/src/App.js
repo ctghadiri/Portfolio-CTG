@@ -16,7 +16,9 @@ function App() {
         <Nav />
       </div>
       <Section name="About Me" id="about-me">
-
+        <div>
+          <p>Hi! My name is Cyrus. I am an asipiring full-stack web developer who studied at the UC Berkeley Extension Boot Camp for full-stack with interests in working in the area of back-end web engineer. The full stack flex program gives me experience with web development tech like JavaScript, jQuery, Git, Node.js, MongoDB, and React.js.</p>
+        </div>
       </Section>
       {/* Photo by Fezbot2000 on Unsplash */}
       <Parallax image="/assets/images/beach.jpg"></Parallax>

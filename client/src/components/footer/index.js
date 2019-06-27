@@ -5,11 +5,11 @@ const Footer = () => {
     return (
       <footer class="page-footer">
         <div class="row">
+          <a class="grey-text text-lighten-4 center" href="#!">More Links</a>
         </div>
         <div class="row footer-margin">
           <div class="container center-align">
-          © Copyright
-          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          CYRUS GHADIRI ©
           </div>
         </div>
       </footer>
