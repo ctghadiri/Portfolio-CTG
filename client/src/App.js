@@ -70,7 +70,7 @@ function App() {
       <Parallax image="/assets/images/beach.jpg"></Parallax>
       <Section name="Projects" id="projects">
           <div className="row section">
-              <ProjImage projImg="/assets/images/TruckTrackerLogo.png"></ProjImage>
+              <ProjImage projImg="/assets/images/TruckTrackerLogo.png" link="https://github.com/Mel-Marsollier/WhatTheTruck-FE"></ProjImage>
               <ProjDetails projTitle="Truck Tracker">
               <ul>
                 <li>Collaborated with a team on creating web app to display nearby food truck information.</li>
@@ -89,7 +89,7 @@ function App() {
                 <li>Applied moment.js to provide time conversions for API pulls and responses.</li>
               </ul>
               </ProjDetails>
-              <ProjImage projImg="/assets/images/Liri-Bot.png"></ProjImage>
+              <ProjImage projImg="/assets/images/Liri-Bot.png" link="https://github.com/ctghadiri/liri-node-app"></ProjImage>
           </div>
           <div className="row section">
               <ProjImage></ProjImage>
