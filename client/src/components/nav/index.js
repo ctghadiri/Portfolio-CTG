@@ -3,7 +3,7 @@ import './style.css';
 
 const Nav = () => {
     return (
-      <div class="row nav-margin">
+      <div class="row nav-margin pinned">
         <a href="#" class="sidenav-trigger hide-on-large-only" data-target="mobile-links">
           <i class="material-icons">menu</i>
         </a>
