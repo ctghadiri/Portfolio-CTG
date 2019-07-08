@@ -4,8 +4,8 @@ const Contact = () => {
     return (
         <div className="row section">
             <div className="col s12 l5">
-                <h6>Contact</h6>
-                <p>Reach out if you have any questions</p>
+                <h6>Reach Out!</h6>
+                <p>Feel free to contact me if you have any questions or suggestions for current or future projects.</p>
             </div>
             <div className="col s12 l7">
                 <form>
