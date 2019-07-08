@@ -1,3 +1,8 @@
 .nav-margin {
     margin: 0px 0px 0px 0px;
 }
+
+.nav-background {
+    background-color: grey;
+    opacity: 0.75;
+}
