@@ -34,6 +34,9 @@ const Contact = () => {
                             <label for="textarea">Message</label>
                         </div>
                     </div>
+                    <div className="input-field center">
+                        <button className="btn white grey-text text-darken-1">Submit</button>
+                    </div>
                 </form>
             </div>
         </div>
